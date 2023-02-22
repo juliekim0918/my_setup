@@ -1,0 +1,107 @@
+{
+  "workbench.colorTheme": "Nord Wave",
+  "window.zoomLevel": 1,
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.fontFamily": "'JetBrains Mono','Fira Code','Source Code Pro', 'Courier New', monospace",
+  "editor.fontSize": 12,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "afterDelay",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  // "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "modifications", // comment this out if you want your formatOnSave to work; its disabled rn bc I want to just manually format things
+  "editor.autoClosingBrackets": "always",
+  "editor.tabSize": 2,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "*.erb": "html",
+    "ruby": "html"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "emmet.showSuggestionsAsSnippets": true,
+  "editor.snippetSuggestions": "top",
+  "emmet.triggerExpansionOnTab": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "prettier.configPath": ".prettierrc",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.useTabs": true,
+  "prettier.tabWidth": 2,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.singleQuote": false,
+  "[ruby]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Shopify.ruby-lsp"
+  },
+  "ruby.rubocop.onSave": true,
+  "tailwindCSS.emmetCompletions": true,
+  "gitlens.defaultDateStyle": "absolute",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "~/../css/"
+    }
+  ],
+  "ruby.format": "rubocop",
+  "sorbet.enabled": true,
+  "rubyLsp.enabledFeatures": {
+    "codeActions": true,
+    "diagnostics": true,
+    "documentHighlights": true,
+    "documentLink": true,
+    "documentSymbols": true,
+    "foldingRanges": true,
+    "formatting": true,
+    "hover": true,
+    "inlayHint": true,
+    "onTypeFormatting": true,
+    "selectionRanges": true,
+    "semanticHighlighting": true
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": [
+    "source.fixAll.eslint",
+    "source.formatDocument",
+  ],
+  "files.associations": {
+    "*.html.erb": "html"
+  },
+  "git.allowNoVerifyCommit": true,
+  "terminal.integrated.scrollback": 1000000,
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.iconTheme": "eq-material-theme-icons-light",
+}
