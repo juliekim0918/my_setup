@@ -35,6 +35,16 @@
 ## Productivity
 - [Obsidian](https://obsidian.md/) (note taking)
 - [Magnet](https://apps.apple.com/us/app/magnet/id441258766?mt=12)
+- Custom iTerm keyboard bindings
+```
+KEYBOARD SHORTCUT: Command+Option+ <-
+ACTION: Send escape sequence
+ESC+: b
+
+KEYBOARD SHORTCUT: Command+Option+ ->
+ACTION: Send escape sequence
+ESC+: f
+```
 
 ## Development
 - Insomnia
